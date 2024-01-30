@@ -12,4 +12,3 @@ def roman_to_int(roman_string):
         else:
             result += nr[roman_string[idx]]
     return result
-    
