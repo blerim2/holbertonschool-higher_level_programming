@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-'''
-writing a class square
-'''
+'''writing a class square'''
+
 class square:
-'''
-no class passed
-'''
+'''no class passed'''
 pass
