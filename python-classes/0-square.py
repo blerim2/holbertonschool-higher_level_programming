@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-'''writing a class square'''
+"""Define a class Square."""
 
-class square:
-'''no class passed'''
-pass
+
+class Square:
+    """Represent a square."""
+    pass
