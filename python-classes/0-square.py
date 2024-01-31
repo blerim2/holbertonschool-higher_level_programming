@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 '''
-writing squares
+writing a class square
 '''
 class square:
 '''
-writing
+no class passed
 '''
-    pass
+pass
