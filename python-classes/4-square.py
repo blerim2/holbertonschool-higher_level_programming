@@ -5,14 +5,23 @@
 class Square:
     "Represent a square."""
     def __init__(self, size=0):
+        self.__size = size
+
+    @property
+    def size(self):
+        """Get size of square"""
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        self.__size = value
         """Initializes the data."""
-        if type(size) is not int:
+        if type(value) is not int:
             print("size must be an integer", end="")
             raise TypeError
-        if size < 0:
+        if value < 0:
             print("size must be >= 0", end="")
             raise ValueError
-        self.__size = size
 
     def area(self):
         """returns the current square area"""
