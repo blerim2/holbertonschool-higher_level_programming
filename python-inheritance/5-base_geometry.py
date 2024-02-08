@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Creates a class called Geometry"""
+"""Defines a class BaseGeometry."""
 
 
 class BaseGeometry:
-"""Represents a base geometry object."""
+    """Represents a base geometry object."""
     pass
