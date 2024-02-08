@@ -2,6 +2,6 @@
 ''' Creates a class called Geometry'''
 
 
-class BaseGeometry
+class BaseGeometry:
 ''' Creating an empty class'''
     pass
