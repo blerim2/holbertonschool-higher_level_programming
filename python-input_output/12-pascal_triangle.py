@@ -1,19 +1,18 @@
 #!/usr/bin/python3
-'''input/output'''
+'''pascal triangle'''
 
 
-class Student:
-    '''Student'''
-    def __init__(self, first_name, last_name, age):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
+def pascal_triangle(n):
+    '''pascal triangle'''
+    if n <= 0:
+        return []
 
-    def to_json(self, attrs=None):
-        if attrs is None:
-            return self.__dict__
-        new_dict = {}
-        for key in attrs:
-            if key in self.__dict__:
-                new_dict[key] = self.__dict__[key]
-        return new_dict
+    res = [[1]]
+
+    for _ in range(n - 1):
+        temp = [0] + res[-1] + [0]
+        row = []
+        for j in range(len(res[-1]) + 1):
+            row.append(temp[j] + temp[j + 1])
+        res.append(row)
+    return res
