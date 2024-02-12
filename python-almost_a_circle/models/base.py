@@ -2,7 +2,6 @@
 """base class"""
 
 
-
 class Base:
     """
     Base class for managing id attribute in all future classes.
