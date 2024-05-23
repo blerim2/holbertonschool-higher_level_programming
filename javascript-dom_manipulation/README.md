@@ -1,1 +1,1 @@
-JavaScript DOM manipulation
+JavaScript DOM manipulations
